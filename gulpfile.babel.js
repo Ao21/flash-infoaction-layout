@@ -110,6 +110,7 @@ gulp.task('scripts', () =>
       //       you need to explicitly list your scripts here in the right order
       //       to be correctly concatenated
     './app/scripts/anime.js',
+    './app/scripts/jquery.min.js',
     './app/scripts/hammer.min.js',
     './app/scripts/polyfills.js',
     './app/scripts/main.js',
